@@ -1,7 +1,7 @@
 # Exercise-01d-Twine-Story
 Exercise for MSCH-C220, 3 September 2020
 
-This exercise is should be the final step in creating a minimum-requirement solution for project 01. You task is to create a story in Twine, export it as a JSON file, and make sure it works with our Python game engine.
+This exercise is should be the final step in creating a minimum-requirement solution for Project 01. You task is to create a story in Twine, export it as a JSON file, and make sure it works with our Python game engine.
 
 As usual, the first step is to Fork the repository. When that process has completed, make sure that the top of the repository reads [your username]/Exercise-01d-Twine-Story
 
