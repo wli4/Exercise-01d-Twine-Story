@@ -96,21 +96,21 @@
       }
     },
     {
-      "text": "Drifting on the sea in a lifebuoy, you feel cold and desperate. You have been drifted away from the beach for an hour. \"Why did I have to show off and take that risk??\", you think to yourself regretfully.\nWhoosh! A white-haired lady in a pink robe appeared in front of you, standing on water. \n\"My name is Gramma R. My magic can guide you to land, only if you have enough command of GRAMMAR!\" \nGramma R waves a shiny purple wand elegantly and fairy dusts gathered into words in mid-air: \"There is an increasing ____ to make movies describing violence.\" \nThree lifebuoys appears on water for you to grab.\n[[Grab the lifebuoy writes TREND->TREND lifebuoy]]\n[[Grab the lifebuoy writes DIRECTION->DIRECTION lifebuoy]]\n[[Grab the lifebuoy writes STRENGTH->STRENGTH lifebuoy]]",
+      "text": "Drifting on the sea in a swim-ring, you feel cold and desperate. You have been drifted away from the beach for an hour. \"Why did I have to show off and take that risk??\", you think to yourself regretfully.\nWhoosh! A white-haired lady in a pink robe appeared in front of you, standing on water. \n\"My name is Gramma R. My magic can guide you to land, only if you have enough command of GRAMMAR!\" \nGramma R waves a shiny purple wand elegantly and fairy dusts gathered into words in mid-air: \"There is an increasing ____ to make movies describing violence.\" \nThree swim-rings appear on water for you to grab.\n[[Grab the swim-ring writes TREND->TREND swim-ring]]\n[[Grab the swim-ring writes DIRECTION->DIRECTION swim-ring]]\n[[Grab the swim-ring writes STRENGTH->STRENGTH swim-ring]]",
       "links": [
         {
-          "name": "Grab the lifebuoy writes TREND",
-          "link": "TREND lifebuoy",
+          "name": "Grab the swim-ring writes TREND",
+          "link": "TREND swim-ring",
           "pid": "7"
         },
         {
-          "name": "Grab the lifebuoy writes DIRECTION",
-          "link": "DIRECTION lifebuoy",
+          "name": "Grab the swim-ring writes DIRECTION",
+          "link": "DIRECTION swim-ring",
           "pid": "8"
         },
         {
-          "name": "Grab the lifebuoy writes STRENGTH",
-          "link": "STRENGTH lifebuoy",
+          "name": "Grab the swim-ring writes STRENGTH",
+          "link": "STRENGTH swim-ring",
           "pid": "9"
         }
       ],
@@ -122,30 +122,51 @@
       }
     },
     {
-      "text": "Double-click this passage to edit it.",
-      "name": "TREND lifebuoy",
+      "text": "Congradulations! The magic swim-ring takes you upon the beach. You can go home now.\n[[Go home->Home]]",
+      "links": [
+        {
+          "name": "Go home",
+          "link": "Home",
+          "pid": "5"
+        }
+      ],
+      "name": "TREND swim-ring",
       "pid": "7",
       "position": {
-        "x": "676",
-        "y": "769"
+        "x": "570",
+        "y": "772"
       }
     },
     {
-      "text": "Double-click this passage to edit it.",
-      "name": "DIRECTION lifebuoy",
+      "text": "The moment you touches the swim-ring, a gigantic whirlpool is summoned right next to you! You are being pulled to the bottom of ocean!\n[[Let go of the DIRECTION swim-ring and choose again->Beach]]",
+      "links": [
+        {
+          "name": "Let go of the DIRECTION swim-ring and choose again",
+          "link": "Beach",
+          "pid": "6"
+        }
+      ],
+      "name": "DIRECTION swim-ring",
       "pid": "8",
       "position": {
-        "x": "826",
-        "y": "769"
+        "x": "798",
+        "y": "773"
       }
     },
     {
-      "text": "Double-click this passage to edit it.",
-      "name": "STRENGTH lifebuoy",
+      "text": "The swim-ring starts squirming at the touch of your hand! It turns into a red octopus. The strong octopus extends its legs and starts to attack you!\n[[Let go of the swim-ring and choose again->Beach]]",
+      "links": [
+        {
+          "name": "Let go of the swim-ring and choose again",
+          "link": "Beach",
+          "pid": "6"
+        }
+      ],
+      "name": "STRENGTH swim-ring",
       "pid": "9",
       "position": {
-        "x": "976",
-        "y": "769"
+        "x": "1038",
+        "y": "759"
       }
     }
   ],
