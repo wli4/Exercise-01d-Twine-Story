@@ -1,164 +1,157 @@
 {
-    "passages": [
-      {
-        "text": "You are standing at the end of a road before a small brick building. Around you is a forest.  A small stream flows out of the building and down a gully.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Road",
-        "pid": "1",
-        "position": {
-          "x": "412",
-          "y": "189"
+  "passages": [
+    {
+      "text": "Heat in the air is surprisingly high for a September day, which is getting on your nerves. After finding the same log of wood for the third time, you can no longer deny the fact that you are lost in the trees.\nThe phone being out of service makes you regret this hiking. You have been trapped in the trees for 6 hours now. The sky is getting darker and there is a wolf-howl every now and then. \nWhoosh! A cloud of fairy dust exploded in front of you and there walked out a grandmother in pink robe.\n\"Greatings! My name is Gramma R. I can guide you home if you have enough command of GRAMMAR!\" The lady announces. The fairy dusts gathers to words in mid-air: \"A lot of traffic accidents____ from carelessness\". Meanwhile she presents three gift-boxes in front of you.\n[[Open gift box writes AROUNSE->AROUNSE Box]]\n[[Open gift box writes RISE->RISE Box]]\n[[Open gift box writes ARISE->ARISE Box]]",
+      "links": [
+        {
+          "name": "Open gift box writes AROUNSE",
+          "link": "AROUNSE Box",
+          "pid": "2"
+        },
+        {
+          "name": "Open gift box writes RISE",
+          "link": "RISE Box",
+          "pid": "3"
+        },
+        {
+          "name": "Open gift box writes ARISE",
+          "link": "ARISE Box",
+          "pid": "4"
         }
-      },
-      {
-        "text": "You are in open forest, with a deep valley to one side.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Road]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Forest",
-        "pid": "2",
-        "position": {
-          "x": "187",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are inside a building, a well house for a large spring.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Road]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Road",
-            "pid": "1"
-          }
-        ],
-        "name": "Building",
-        "pid": "3",
-        "position": {
-          "x": "337",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are in a valley in the forest beside a stream tumbling along a rocky bed.\n\n[[Go North->Road]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Valley",
-        "pid": "4",
-        "position": {
-          "x": "487",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You have walked up a hill, still in the forest.  The road slopes back\ndown the other side of the hill.  There is a building in the distance.\n\n[[Go North->Forest]]\n[[Go East->Road]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Hill",
-        "pid": "5",
-        "position": {
-          "x": "637",
-          "y": "339"
-        }
+      ],
+      "name": "Autumn Trees",
+      "pid": "1",
+      "position": {
+        "x": "405",
+        "y": "171"
       }
-    ],
-    "name": "Adventure",
-    "startnode": "1",
-    "creator": "Twine",
-    "creator-version": "2.3.7",
-    "ifid": "1A8FFB75-8072-4382-BCAF-ADFA65B09385"
-  }
+    },
+    {
+      "text": "The bees inside were arounsed by your opening the box. They are ready to take off and chase you!\n[[Close AROUNSE box and try agian->Autumn Trees]]",
+      "links": [
+        {
+          "name": "Close AROUNSE box and try agian",
+          "link": "Autumn Trees",
+          "pid": "1"
+        }
+      ],
+      "name": "AROUNSE Box",
+      "pid": "2",
+      "position": {
+        "x": "285",
+        "y": "321"
+      }
+    },
+    {
+      "text": "A green serpent rises from the box whose eyes stares right at you and whose venom drips from fangs. It's comming at you!\n[[Close RISE box and try again->Autumn Trees]]",
+      "links": [
+        {
+          "name": "Close RISE box and try again",
+          "link": "Autumn Trees",
+          "pid": "1"
+        }
+      ],
+      "name": "RISE Box",
+      "pid": "3",
+      "position": {
+        "x": "435",
+        "y": "321"
+      }
+    },
+    {
+      "text": "Congradulations! A magic compass is inside the box. You found your way home!\n[[Go home->Home]]",
+      "links": [
+        {
+          "name": "Go home",
+          "link": "Home",
+          "pid": "5"
+        }
+      ],
+      "name": "ARISE Box",
+      "pid": "4",
+      "position": {
+        "x": "586",
+        "y": "319"
+      }
+    },
+    {
+      "text": "Nothing is better than a good night of sleep at home. Feeling energized, you want to go out to play.\n[[Go hiking->Autumn Trees]]\n[[Go swimming->Beach]]",
+      "links": [
+        {
+          "name": "Go hiking",
+          "link": "Autumn Trees",
+          "pid": "1"
+        },
+        {
+          "name": "Go swimming",
+          "link": "Beach",
+          "pid": "6"
+        }
+      ],
+      "name": "Home",
+      "pid": "5",
+      "position": {
+        "x": "826",
+        "y": "469"
+      }
+    },
+    {
+      "text": "Drifting on the sea in a lifebuoy, you feel cold and desperate. You have been drifted away from the beach for an hour. \"Why did I have to show off and take that risk??\", you think to yourself regretfully.\nWhoosh! A white-haired lady in a pink robe appeared in front of you, standing on water. \n\"My name is Gramma R. My magic can guide you to land, only if you have enough command of GRAMMAR!\" \nGramma R waves a shiny purple wand elegantly and fairy dusts gathered into words in mid-air: \"There is an increasing ____ to make movies describing violence.\" \nThree lifebuoys appears on water for you to grab.\n[[Grab the lifebuoy writes TREND->TREND lifebuoy]]\n[[Grab the lifebuoy writes DIRECTION->DIRECTION lifebuoy]]\n[[Grab the lifebuoy writes STRENGTH->STRENGTH lifebuoy]]",
+      "links": [
+        {
+          "name": "Grab the lifebuoy writes TREND",
+          "link": "TREND lifebuoy",
+          "pid": "7"
+        },
+        {
+          "name": "Grab the lifebuoy writes DIRECTION",
+          "link": "DIRECTION lifebuoy",
+          "pid": "8"
+        },
+        {
+          "name": "Grab the lifebuoy writes STRENGTH",
+          "link": "STRENGTH lifebuoy",
+          "pid": "9"
+        }
+      ],
+      "name": "Beach",
+      "pid": "6",
+      "position": {
+        "x": "826",
+        "y": "619"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "TREND lifebuoy",
+      "pid": "7",
+      "position": {
+        "x": "676",
+        "y": "769"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "DIRECTION lifebuoy",
+      "pid": "8",
+      "position": {
+        "x": "826",
+        "y": "769"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "STRENGTH lifebuoy",
+      "pid": "9",
+      "position": {
+        "x": "976",
+        "y": "769"
+      }
+    }
+  ],
+  "name": "Grammar Magic 1",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "95C68071-A2A8-4D33-99AA-C873E877BF83"
+}
